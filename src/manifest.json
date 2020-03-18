@@ -1,0 +1,22 @@
+{
+  "name": "template-vuetify-chrome-extension",
+  "description": "template-vuetify-chrome-extension",
+  "version": null,
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "extension-ct",
+    "default_popup": "popup/popup.html"
+  },
+  "sandbox": {
+    "pages": ["popup.html"]
+ },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
